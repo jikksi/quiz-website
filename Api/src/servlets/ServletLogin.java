@@ -24,10 +24,6 @@ public class ServletLogin extends HttpServlet {
         if(manager.validUser(account.getUsername(),hashedPassword)){
             response.getWriter().println("{\"valid\":true}");
             System.out.println("welcome");
-            /*
-            Cookie cookie = new Cookie("Username",account.getUsername());
-            response.addCookie(cookie);
-            */
         }else{
 
             response.getWriter().println("{\"valid\":false}");
