@@ -25,7 +25,6 @@ public class ServletLogin extends HttpServlet {
             response.getWriter().println("{\"valid\":true}");
             System.out.println("welcome");
         }else{
-
             response.getWriter().println("{\"valid\":false}");
         }
     }

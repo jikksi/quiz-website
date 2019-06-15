@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d68917ee-8289-4c51-80c3-aa6a5c719c79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cracker/PasswordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listener/Listener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ProjectApi_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ProjectApi_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/servlets/ServletLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servlets/ServletLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../project/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project/src/js/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../project/src/js/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project/src/js/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/../project/src/js/Register.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/database/MyDBInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="180">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -54,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlets/ServletLogin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -66,8 +62,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlets/ServletRegister.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/listener/Listener.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -93,10 +98,11 @@
         <option value="$PROJECT_DIR$/src/database/MyDBInfo.java" />
         <option value="$PROJECT_DIR$/src/database/DatabaseManager.java" />
         <option value="$PROJECT_DIR$/src/models/Account.java" />
-        <option value="$PROJECT_DIR$/src/servlets/ServletRegister.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/servlets/ServletLogin.java" />
         <option value="$PROJECT_DIR$/src/cracker/PasswordGenerator.java" />
+        <option value="$PROJECT_DIR$/src/servlets/ServletRegister.java" />
+        <option value="$PROJECT_DIR$/src/servlets/ServletLogin.java" />
+        <option value="$PROJECT_DIR$/src/listener/Listener.java" />
       </list>
     </option>
   </component>
@@ -128,17 +134,6 @@
               <item name="ProjectApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="Api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ProjectApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -148,7 +143,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560611205184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560611637220" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -217,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560609008306</updated>
-      <workItem from="1560609010181" duration="1980000" />
+      <workItem from="1560609010181" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="Servlets added and Account and database classes implemented.">
       <created>1560610276113</created>
@@ -226,11 +221,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560610276113</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Password Generator class implementation.">
+      <created>1560611042457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560611042457</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ServletRegister and ServletLogin implementation.">
+      <created>1560611266675</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560611266675</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1980000" />
+    <option name="totallyTimeSpent" value="2559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,8 +259,8 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info id="Web" sideWeight="0.502439" side_tool="true" visible="true" weight="0.24962178" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.24962178" />
+      <window_info active="true" id="Web" sideWeight="0.502451" side_tool="true" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Terminal" />
@@ -263,7 +272,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33224222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,7 +293,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Servlets added and Account and database classes implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlets added and Account and database classes implemented." />
+    <MESSAGE value="Password Generator class implementation." />
+    <MESSAGE value="ServletRegister and ServletLogin implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="ServletRegister and ServletLogin implementation." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ProjectApi.iml">
@@ -350,30 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/MyDBInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlets/ServletRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cracker/PasswordGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -386,10 +373,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/MyDBInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlets/ServletRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/servlets/ServletLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listener/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
         </state>
       </provider>
     </entry>
