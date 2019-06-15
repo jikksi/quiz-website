@@ -59,7 +59,7 @@ function checkLogin() {
     if ((username == "" || password == "")) {
         error.innerHTML = "Incorrect input!";
     } else {
-        var url = 'http://localhost:8080/myWebPages_war_exploded/ServletLogin';
+        var url = 'http://localhost:8080/ProjectApi_war_exploded/ServletLogin';
         fetch(url, {
             method: 'POST', // or 'PUT'
             body: JSON.stringify(data), // data can be `string` or {object}!

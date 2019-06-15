@@ -100,7 +100,7 @@ function checkRegistration() {
             "email": email.value,
             "gender": gender
         }
-        var url = 'http://localhost:8080/myWebPages_war_exploded/ServletRegister';
+        var url = 'http://localhost:8080/ProjectApi_war_exploded/ServletRegister';
         fetch(url, {
             method: 'POST', // or 'PUT'
             body: JSON.stringify(data), // data can be `string` or {object}!
