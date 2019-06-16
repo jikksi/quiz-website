@@ -16,6 +16,7 @@ public class Listener implements ServletContextListener,
 
     // Public constructor is required by servlet spec
     public Listener() {
+
     }
 
     // -------------------------------------------------------

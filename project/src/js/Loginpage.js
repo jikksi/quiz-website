@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Register from './Register';
 import Login from './Login';
-import '../css/Homepage.css';
+import '../css/Loginpage.css';
 
-class Homepage extends Component {
+class Loginpage extends Component {
     constructor() {
         super();
         console.log("Homepage");
@@ -32,4 +32,4 @@ class Homepage extends Component {
     }
 }
 
-export default Homepage;
+export default Loginpage;
